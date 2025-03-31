@@ -4,6 +4,75 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Resume</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    section {
+      padding: 20px;
+      margin: 20px;
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    section h2 {
+      font-size: 1.8em;
+      color: #333;
+    }
+
+    section p {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 1.1em;
+      color: #fff;
+      background-color: #007BFF;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    a:hover {
+      background-color: #0056b3;
+    }
+
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+      margin-top: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #333;
+      color: white;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -11,12 +80,21 @@
   </header>
 
   <section>
-    <p>Click the link below to view my resume:</p>
-    <a href="https://github.com/raghavyas19/my-resume/raw/main/CV_RAGHAV_FS.pdf" target="_blank">View My Resume (PDF)</a>
+    <h2>About Me</h2>
+    <p>Hello! I'm a passionate full-stack developer with experience in building web applications and working with machine learning. Below you can view my detailed resume in PDF format.</p>
+    
+    <!-- Link to view the PDF in a new tab -->
+    <a href="https://raw.githubusercontent.com/raghavyas19/my-resume/main/CV_RAGHAV_FS.pdf" target="_blank">View My Resume (PDF)</a>
+
+    <!-- Embedded PDF -->
+    <iframe src="https://raw.githubusercontent.com/raghavyas19/my-resume/main/CV_RAGHAV_FS.pdf"></iframe>
+
+    <!-- Download Link -->
+    <a href="https://raw.githubusercontent.com/raghavyas19/my-resume/main/CV_RAGHAV_FS.pdf" download>Download My Resume (PDF)</a>
   </section>
 
   <footer>
-    <p>Contact: raghasvyas@gmail.com</p>
+    <p>Contact: myemail@example.com</p>
   </footer>
 </body>
 </html>
